@@ -1,0 +1,121 @@
+body {
+  margin: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(circle at 62% 44%, #ffffff, #ABEBC6);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.button {
+  margin: 0 auto;
+  color: darkslategray;
+  font-size: 18px;
+  background-color: lightgray;
+  border: 2px outset darkslategray;
+  border-radius: 7px;
+  height: 40px;
+  width: 150px;
+}
+
+.button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-div {
+  text-align: center;
+  width: 100%;
+  height: 45px;
+}
+
+.components-container {
+  display: flex;
+}
+
+.component-container {
+  margin: 25px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: ghostwhite;
+  flex: 1;
+}
+
+.widget-div {
+  margin: 25px;
+  border: 2px solid grey;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+}
+
+.widget-div rect {
+  fill: orange;
+}
+
+.widget-div text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.title {
+  text-align: center;
+  color: gray;
+  font-size: 24px;
+  font-family: Monospaced, monospace;
+}
+
+.header-bg {
+  vertical-align: center;
+  text-align: center;
+  alignment: center;
+  width: 100%;
+  border: 2px inset gray;
+  border-radius: 10px;
+  background-color: lightgray;
+  height: 100px
+}
+
+.header-div {
+  text-align: center;
+  vertical-align: center;
+  color:  white;
+  font-weight: bolder;
+  font-family: Impact, serif;
+  font-size: 64px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.subheader-div {
+  text-align: center;
+  vertical-align: center;
+  color:  white;
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: Monospaced, monospace;
+  height: 100px;
+  line-height: 100px;
+  width: 75%;
+}
+
+.title-div {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  vertical-align: center;
+}
+
